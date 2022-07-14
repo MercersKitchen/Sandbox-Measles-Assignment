@@ -23,6 +23,14 @@ void setup()
 void draw()
 {
   ellipse(xFace, yFace, widthDiameterFace, heightDiameterFace);
+  ellipse(); // Left eye
+  ellipse(); // Right eye
+  
+  //
+  
+  // Nose
+  // Mouth
+  //
 }//End draw
 //
 void keyPressed() {
