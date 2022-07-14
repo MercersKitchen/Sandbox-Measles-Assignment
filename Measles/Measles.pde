@@ -1,5 +1,9 @@
 //Global Variables
 float xFace, yFace, widthDiameterFace, heightDiameterFace;
+float xLeftEye, yLeftEye, xRightEye, yRightEye, eyeDiameter;
+float xNoseBridge, yNoseBridge, xLeftNostril, yLeftNostril, xRightNostril, yRightNostril;
+float xLeftMouth, yLeftMouth, xRightMouth, yRightMouth;
+float xMeasle, yMeasle, measleDiameter;
 //
 void setup()
 {
@@ -7,8 +11,10 @@ void setup()
   size(800, 600); //Landscape
   //
   //Population
-  xFace = width/2;
-  yFace = height/2;
+  float xCenter = width/2;
+  float yCenter = height/2
+  xFace = xCenter;
+  yFace = yCenter;
   float smallerDimension;
   if ( width >= height ) {
     smallerDimension = height;
@@ -17,6 +23,24 @@ void setup()
   }//End dimension choice
   widthDiameterFace = smallerDimension;
   heightDiameterFace = smallerDimension;
+  xLeftEye = ;
+  yLeftEye = ;
+  xRightEye = ;
+  yRightEye = ;
+  eyeDiameter = ;
+  xNoseBridge = ;
+  yNoseBridge = ;
+  xLeftNostril = ;
+  yLeftNostril = ;
+  xRightNostril = ;
+  yRightNostril = ;
+  xLeftMouth = ;
+  yLeftMouth = ;
+  xRightMouth = ;
+  yRightMouth = ;
+  xMeasle = ;
+  yMeasle = ;
+  measleDiameter = ;
   //
 }//End setup
 //
