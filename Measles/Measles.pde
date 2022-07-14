@@ -1,6 +1,11 @@
 //Global Variables
 //
-void setup() {}//End setup
+void setup()
+{
+  //CANVAS will will be added to later
+  size(800, 600); //Landscape
+  //
+}//End setup
 //
 void draw() {}//End draw
 //
