@@ -26,21 +26,21 @@ void setup()
   xLeftEye = xCenter-smallerDimension*1/4;
   yLeftEye = yCenter-smallerDimension*1/4;
   xRightEye = xCenter+smallerDimension*1/4;
-  yRightEye = yCenter+smallerDimension*1/4;
+  yRightEye = yCenter-smallerDimension*1/4;
   eyeDiameter = smallerDimension*1/8;
-  //xNoseBridge = ;
-  //yNoseBridge = ;
-  //xLeftNostril = ;
-  //yLeftNostril = ;
-  //xRightNostril = ;
-  //yRightNostril = ;
-  //xLeftMouth = ;
-  //yLeftMouth = ;
-  //xRightMouth = ;
-  //yRightMouth = ;
-  //xMeasle = ;
-  //yMeasle = ;
-  //measleDiameter = ;
+  xNoseBridge = xCenter;
+  yNoseBridge = yCenter-smallerDimension*1/8;
+  xLeftNostril = xCenter-smallerDimension*1/8; 
+  yLeftNostril = yCenter+smallerDimension*1/8;
+  xRightNostril = xCenter+smallerDimension*1/8;
+  yRightNostril = yLeftNostril;
+  xLeftMouth = xLeftEye;
+  yLeftMouth = yCenter+smallerDimension*1/4;
+  xRightMouth = xRightEye;
+  yRightMouth = yLeftMouth;
+  xMeasle = random(0, width);
+  yMeasle = random(0, height);
+  measleDiameter = smallerDimension*1/50;
   //
 }//End setup
 //
