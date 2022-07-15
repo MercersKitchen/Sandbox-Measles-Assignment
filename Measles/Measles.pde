@@ -6,6 +6,7 @@ float xLeftMouth, yLeftMouth, xRightMouth, yRightMouth;
 int thack=50;
 float xMeasle, yMeasle, measleDiameter;
 color resetWhite=#FFFFFF, red=#FF0000; //similar to int declaration
+Boolean nightMode=false;
 //
 void setup()
 {
@@ -41,7 +42,6 @@ void setup()
   yRightMouth = yLeftMouth;
   faceRadius = smallerDimension/2;
   //
-  Boolean nightMode=true;
   color backgroundColour = ( nightMode==true ) ? color( random(255), random(255), 0 ) : color( random(255), random(255), random(255) ) ; //ternary operator, similar to IF-Else
   background( backgroundColour );
   ellipse(xFace, yFace, widthDiameterFace, heightDiameterFace);
@@ -50,7 +50,6 @@ void setup()
 //
 void draw()
 {
-  
   ellipse(xLeftEye, yLeftEye, eyeDiameter, eyeDiameter);
   ellipse(xRightEye, yRightEye, eyeDiameter, eyeDiameter);
   triangle(xNoseBridge, yNoseBridge, xLeftNostril, yLeftNostril, xRightNostril, yRightNostril);
@@ -74,6 +73,16 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
+  if ( nightMode == false ) { //NightMode Switch
+    nightMode = true;
+  } else {
+    nightMode = false;
+  } //End nightMode switch
+
+  /*
+  color backgroundColour = ( nightMode==true ) ? color( random(255), random(255), 0 ) : color( random(255), random(255), random(255) ) ; //ternary operator, similar to IF-Else
+   background( backgroundColour );
+   */
 }//End mousePressed
 //
 //End MAIN Program
