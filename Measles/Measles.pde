@@ -12,7 +12,7 @@ void setup()
   //
   //Population
   float xCenter = width/2;
-  float yCenter = height/2
+  float yCenter = height/2;
   xFace = xCenter;
   yFace = yCenter;
   float smallerDimension;
@@ -23,24 +23,24 @@ void setup()
   }//End dimension choice
   widthDiameterFace = smallerDimension;
   heightDiameterFace = smallerDimension;
-  xLeftEye = ;
-  yLeftEye = ;
-  xRightEye = ;
-  yRightEye = ;
-  eyeDiameter = ;
-  xNoseBridge = ;
-  yNoseBridge = ;
-  xLeftNostril = ;
-  yLeftNostril = ;
-  xRightNostril = ;
-  yRightNostril = ;
-  xLeftMouth = ;
-  yLeftMouth = ;
-  xRightMouth = ;
-  yRightMouth = ;
-  xMeasle = ;
-  yMeasle = ;
-  measleDiameter = ;
+  xLeftEye = xCenter;
+  yLeftEye = yCenter;
+  //xRightEye = ;
+  //yRightEye = ;
+  eyeDiameter = smallerDimension*1/20;
+  //xNoseBridge = ;
+  //yNoseBridge = ;
+  //xLeftNostril = ;
+  //yLeftNostril = ;
+  //xRightNostril = ;
+  //yRightNostril = ;
+  //xLeftMouth = ;
+  //yLeftMouth = ;
+  //xRightMouth = ;
+  //yRightMouth = ;
+  //xMeasle = ;
+  //yMeasle = ;
+  //measleDiameter = ;
   //
 }//End setup
 //
