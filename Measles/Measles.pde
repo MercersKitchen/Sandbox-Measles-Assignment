@@ -38,8 +38,9 @@ void setup()
   yLeftMouth = yCenter+smallerDimension*1/4;
   xRightMouth = xRightEye;
   yRightMouth = yLeftMouth;
-  xMeasle = random(0, width);
-  yMeasle = random(0, height);
+  float faceRadius = smallerDimension/2;
+  xMeasle = random(xCenter-faceRadius, xCenter+faceRadius);
+  yMeasle = random(0, smallerDimension);
   measleDiameter = smallerDimension*1/50;
   //
 }//End setup
