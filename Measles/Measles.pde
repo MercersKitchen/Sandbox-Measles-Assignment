@@ -23,10 +23,10 @@ void setup()
   }//End dimension choice
   widthDiameterFace = smallerDimension;
   heightDiameterFace = smallerDimension;
-  xLeftEye = xCenter;
-  yLeftEye = yCenter;
-  //xRightEye = ;
-  //yRightEye = ;
+  xLeftEye = xCenter-smallerDimension*1/4;
+  yLeftEye = yCenter-smallerDimension*1/4;
+  xRightEye = xCenter+smallerDimension*1/4;
+  yRightEye = yCenter+smallerDimension*1/4;
   eyeDiameter = smallerDimension*1/8;
   //xNoseBridge = ;
   //yNoseBridge = ;
