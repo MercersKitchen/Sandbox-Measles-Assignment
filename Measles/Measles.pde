@@ -27,7 +27,7 @@ void setup()
   yLeftEye = yCenter;
   //xRightEye = ;
   //yRightEye = ;
-  eyeDiameter = smallerDimension*1/20;
+  eyeDiameter = smallerDimension*1/8;
   //xNoseBridge = ;
   //yNoseBridge = ;
   //xLeftNostril = ;
